@@ -3,9 +3,9 @@
 \*------------------------------------*/
 [class*="torso--sidebar"] {
     [class*="torso__content"]{
-		@include grid-column(8);
+		@include col(8);
     }
     [class*="torso__sidebar"]{
-        @include grid-column(4);
+        @include col(4);
     }
 }
